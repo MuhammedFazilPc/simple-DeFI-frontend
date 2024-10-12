@@ -6,7 +6,6 @@ import {
   withdrawFromContract,
 } from "./contract";
 import { ethers } from "ethers"; // ethers v6
-import { use } from "framer-motion/m";
 
 const App = () => {
   const [contractBalance, setContractBalance] = useState(null);
